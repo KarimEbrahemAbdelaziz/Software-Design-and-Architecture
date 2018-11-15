@@ -68,8 +68,8 @@ The design principle of decomposition takes a whole thing and divides it into di
 
 **Aggregation** is a “has-a” relationship where a whole has parts that belong to it. Parts may be shared among wholes in this relationship. Aggregation relationships are typically weak.
 
-![association](img/association.PNG)
+![aggregation](img/aggregation.PNG)
 
 **Composition** is one of the most dependent of the decomposition relationships. This relationship is an exclusive containment of parts, otherwise known as a strong “has-a” relationship. In other words, a whole cannot exist without its parts, and if the whole is destroyed, then the parts are destroyed too.
 
-![association](img/association.PNG)
+![composizion](img/coposition.PNG)
