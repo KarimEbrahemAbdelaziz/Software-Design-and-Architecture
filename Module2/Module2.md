@@ -72,4 +72,4 @@ The design principle of decomposition takes a whole thing and divides it into di
 
 **Composition** is one of the most dependent of the decomposition relationships. This relationship is an exclusive containment of parts, otherwise known as a strong “has-a” relationship. In other words, a whole cannot exist without its parts, and if the whole is destroyed, then the parts are destroyed too.
 
-![composizion](img/coposition.PNG)
+![composition](img/composition.PNG)
