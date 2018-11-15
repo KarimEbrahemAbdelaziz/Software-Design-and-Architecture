@@ -20,5 +20,20 @@ Technical designs build on conceptual designs and requirements to define the tec
 
 In order to accomplish this, technical designs begin by splitting components into smaller and smaller components that are specific enough to be designed in detail. By breaking down components more and more into further components, each with specific responsibilities, you get down to a level where you can do a detailed design of a particular component. The final result is that each component will have their technical details specified.
 
-In order to communicate technical design, technical diagrams are used. Technical diagrams visualize how to address specific issues
-for each component.
+In order to communicate technical design, technical diagrams are used. Technical diagrams visualize how to address specific issues for each component.
+
+### Design for Quality Attributes
+Sometimes, there are restrictions on design that require compromise. Besides software requirements based on desired functionality, there are also quality attributes to define how well this functionality must work. But your decisions may also involve trade-offs in different quality attributes, such as performance, convenience, and security, and these attributes need to be balanced.
+
+**Context** provides important information when deciding on the balance of qualities in design.
+
+### Satisfying Qualities
+Qualities are achieved through satisfying functional and non- functional requirements, which in turn are the basis for the design process.
+**Functional requirements** describe what the system or application is expected to do. **Non-functional requirements** specify how well the system or application does what it does.
+
+## Class Responsibility Collaborator
+During the process of conceptual design, it is helpful not only to identify components, responsibilities, and connections but also to represent them. One technique is to use **Class, Responsibility, Collaborator (CRC) cards**.
+
+To keep track of each candidate component and its responsibilities using a CRC card, you place a component’s name in the class name section, and the responsibilities in the responsibilities section. Connections are captured in the collaborators section. 
+
+A key advantage of using CRC cards is that they allow you to physically reorganize your design.
