@@ -1,4 +1,4 @@
-# Module 1 Notes
+# Module 1 - Object-Oriented Analysis and Design
 
 ## Object-Oriented Thinking
 By using objects to represent things in your code, the code stays **organized**, **flexible**, and **reusable**.
