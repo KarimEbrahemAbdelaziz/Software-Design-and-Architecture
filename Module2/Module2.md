@@ -78,10 +78,16 @@ The design principle of decomposition takes a whole thing and divides it into di
 
 The design principle of generalization takes repeated, common, or shared characteristics between two or more classes and factors them out into another class, so that code can be reused, and the characteristics can be inherited by subclasses.
 
-**Implementation Inheritance**: in Java, only single implementation inheritance is allowed. This means that while a superclass can have multiple subclasses, a subclass can only inherit from a single superclass.
+**Implementation Inheritance**: in Java, only single implementation inheritance is allowed. This means that while a superclass can have multiple subclasses, a subclass can only inherit from a single superclass (**extends relationship**).
+
+**Data ambiguity**: if a subclass inherits from two or more superclasses that have attributes with the same name or behaviours with the same method signature, then it is not possible to distinguish between them. As Java cannot tell which one is referenced, so it does not allow for multiple inheritance to prevent data ambiguity.
 
 ![implementationInheritance](img/implementationInheritance.PNG)
 
-Java addresses the restriction of single implementation inheritance by offering **interface inheritance**, another form of generalization.
+Java addresses the restriction of single implementation inheritance by offering **interface inheritance**, another form of generalization (**implements relationship**). 
 
 ![interfaceInheritance](img/interfaceInheritance.PNG)
+
+Like abstract classes, interfaces are a means in which you can achieve **polymorphism**: when two classes have the same description of a behaviour, but the implementations of that behaviour may be different.
+
+In Java, a class can implement as many interfaces as desired. This is because interfaces are only *contracts* and they do not enforce a specific way to complete these contracts, so overlapping method signatures are not a problem.
