@@ -73,3 +73,15 @@ The design principle of decomposition takes a whole thing and divides it into di
 **Composition** is one of the most dependent of the decomposition relationships. This relationship is an exclusive containment of parts, otherwise known as a strong “has-a” relationship. In other words, a whole cannot exist without its parts, and if the whole is destroyed, then the parts are destroyed too.
 
 ![composition](img/composition.PNG)
+
+### Generalization
+
+The design principle of generalization takes repeated, common, or shared characteristics between two or more classes and factors them out into another class, so that code can be reused, and the characteristics can be inherited by subclasses.
+
+**Implementation Inheritance**: in Java, only single implementation inheritance is allowed. This means that while a superclass can have multiple subclasses, a subclass can only inherit from a single superclass.
+
+![implementationInheritance](img/implementationInheritance.PNG)
+
+Java addresses the restriction of single implementation inheritance by offering **interface inheritance**, another form of generalization.
+
+![interfaceInheritance](img/interfaceInheritance.PNG)
