@@ -91,3 +91,7 @@ Java addresses the restriction of single implementation inheritance by offering 
 Like abstract classes, interfaces are a means in which you can achieve **polymorphism**: when two classes have the same description of a behaviour, but the implementations of that behaviour may be different.
 
 In Java, a class can implement as many interfaces as desired. This is because interfaces are only *contracts* and they do not enforce a specific way to complete these contracts, so overlapping method signatures are not a problem.
+
+## Assignment 1
+
+[Here](Assignment1.md) is the assignment and my solution.
