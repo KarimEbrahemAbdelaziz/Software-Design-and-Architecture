@@ -8,4 +8,4 @@ The following description was given to you by your clients.
 
 ## Solution
 
-![Class Diagram](Assignment1_solution.png)
+![Class Diagram](img/Assignment1_solution.png)
