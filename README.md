@@ -6,3 +6,7 @@ Notes and exercises from [Object-Oriented Design](https://www.coursera.org/learn
 * Module 3: **Design Principles** [here](Module3/Module3.md)
 * Module 4: **Capstone Challenge** [here](Module4/Module4.md)
 
+Here is the mind map
+
+![mm]("maps/Object-Oriented-Design.png")
+
