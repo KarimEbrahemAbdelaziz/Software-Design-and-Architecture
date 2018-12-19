@@ -13,7 +13,7 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1545173922767" ID="ID_970065046" MODIFIED="1545198621292" TEXT="requirements">
+<node CREATED="1545173922767" ID="ID_970065046" MODIFIED="1545231751316" TEXT="requirements">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -107,8 +107,19 @@
 </node>
 </node>
 </node>
-<node CREATED="1545174007825" ID="ID_823674381" MODIFIED="1545174010856" TEXT="design">
-<node CREATED="1545174133096" ID="ID_330971942" MODIFIED="1545174139977" TEXT="conceptual design">
+<node CREATED="1545174007825" ID="ID_823674381" MODIFIED="1545231478294" TEXT="design">
+<node CREATED="1545174133096" ID="ID_330971942" MODIFIED="1545231929470" TEXT="conceptual design">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      uses <b>object-oriented analysis</b>&#160;to identify the key objects in the problem and breaks down the problem into manageable pieces
+    </p>
+  </body>
+</html>
+</richcontent>
 <node CREATED="1545198908799" ID="ID_397890278" MODIFIED="1545198981476" TEXT="conceptual mok-up">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -155,14 +166,14 @@
 <node CREATED="1545220698599" ID="ID_410445317" MODIFIED="1545220711635" TEXT="collaborators"/>
 </node>
 </node>
-<node CREATED="1545174145987" ID="ID_500714995" MODIFIED="1545218478332" TEXT="technical design">
+<node CREATED="1545174145987" ID="ID_500714995" MODIFIED="1545231955279" TEXT="technical design">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="rgb(36, 41, 46)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol">breaking down components more and more into further components, each with specific responsibilities, you get down to a level where you can do a detailed design of a particular component</font>
+      uses <b>object-oriented design </b>to further refine the details of the objects, including their attributes and behaviours, so it is clear enough for developers to implement as working software
     </p>
   </body>
 </html>
@@ -195,10 +206,169 @@
 </node>
 </node>
 </node>
-<node CREATED="1545065587630" ID="ID_330339209" MODIFIED="1545230817972" TEXT="object keep code">
+<node CREATED="1545065587630" ID="ID_330339209" MODIFIED="1545231749297" TEXT="object keep code">
 <node CREATED="1545230819278" ID="ID_157017654" MODIFIED="1545230822870" TEXT="organized"/>
 <node CREATED="1545230825874" ID="ID_1559183703" MODIFIED="1545230828286" TEXT="flexible"/>
 <node CREATED="1545230832857" ID="ID_1526178555" MODIFIED="1545230836453" TEXT="reusable"/>
+</node>
+</node>
+<node CREATED="1545231517405" ID="ID_137605911" MODIFIED="1545231521647" POSITION="right" TEXT="OO modelling">
+<node CREATED="1545231983571" ID="ID_834941190" MODIFIED="1545231986240" TEXT="models">
+<node CREATED="1545231989077" ID="ID_1720104960" MODIFIED="1545231991768" TEXT="entity"/>
+<node CREATED="1545231993671" ID="ID_1685550355" MODIFIED="1545232215417" TEXT="control">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      that receive events and co-ordinate actions as the process moves to the solution space
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1545231998280" ID="ID_316886841" MODIFIED="1545232291219" TEXT="boundary">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      that connect outside services to your system, as the process moves towards the solution space
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1545232295599" ID="ID_1641438800" MODIFIED="1545232299472" POSITION="right" TEXT="design principle">
+<node CREATED="1545232304014" ID="ID_99377629" MODIFIED="1545232711719" TEXT="abstraction">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Abstraction breaks a concept down into a simplified description that ignores unimportant details and emphasizes the essentials needed for the concept, within some context.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1545232711696" ID="ID_1786730645" MODIFIED="1545232752062" TEXT="basic attributes"/>
+<node CREATED="1545232717841" ID="ID_1007333959" MODIFIED="1545232755508" TEXT="basic behaviour/responsabilities"/>
+</node>
+<node CREATED="1545232314391" ID="ID_1361526935" MODIFIED="1545232318506" TEXT="encapsulation">
+<node CREATED="1545232898859" ID="ID_374137717" MODIFIED="1545233691821" TEXT="integrity and security"/>
+<node CREATED="1545232907252" ID="ID_1975666575" MODIFIED="1545232916249" TEXT="changable implementation"/>
+<node CREATED="1545232921883" ID="ID_1161104322" MODIFIED="1545233847781" TEXT="black-box thinking">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>abstraction barrier</b>: internal workings of a class are not relevant to the outside world
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1545232326060" ID="ID_1851130348" MODIFIED="1545234083411" TEXT="decomposition">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(36, 41, 46)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol" size="16px">look at the different responsibilities of a whole and evaluate how the whole can be separated into parts that each have a specific responsability</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1545234501973" ID="ID_1190875213" MODIFIED="1545235808066" TEXT="association">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      loose relationship between two objects
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1545235348726" ID="ID_312279988" MODIFIED="1545235443598">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="../../../Desktop/asso.PNG" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1545234511037" ID="ID_716319527" MODIFIED="1545235806061" TEXT="aggregation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#8220;has-a&#8221; relationship where a whole has parts that belong to it
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1545235547211" MODIFIED="1545235547211">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Object-Oriented Design_8865276284944883018.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1545234518492" ID="ID_1186310444" MODIFIED="1545235803953" TEXT="composition">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      strong &#8220;has-a&#8221; relationship
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1545235609273" MODIFIED="1545235609273">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Object-Oriented Design_4539079245389334382.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1545232333949" ID="ID_1162848014" MODIFIED="1545232338012" TEXT="generatlization">
+<node CREATED="1545234247168" ID="ID_1344927806" MODIFIED="1545234249717" TEXT="inheritance">
+<node CREATED="1545235748220" ID="ID_1625982025" MODIFIED="1545235756041" TEXT="implementation inheritance"/>
+<node CREATED="1545235777451" ID="ID_1364781517" MODIFIED="1545235779461" TEXT="interface inheritance">
+<node CREATED="1545235824509" ID="ID_1712654914" MODIFIED="1545235824509" TEXT=""/>
+</node>
+</node>
+<node CREATED="1545234278698" ID="ID_1556178974" MODIFIED="1545234282404" TEXT="DRY rule"/>
 </node>
 </node>
 </node>
