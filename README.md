@@ -8,5 +8,5 @@ Notes and exercises from [Object-Oriented Design](https://www.coursera.org/learn
 
 Here is the mind map
 
-![mm]("maps/Object-Oriented-Design.png")
+![mm](maps/Object-Oriented-Design.png)
 
