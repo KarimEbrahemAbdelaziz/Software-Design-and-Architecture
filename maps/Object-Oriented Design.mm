@@ -1,24 +1,18 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1545064078111" ID="ID_785597893" MODIFIED="1545120033119" TEXT="Object-Oriented Design">
-<node CREATED="1545065413211" ID="ID_1923681025" MODIFIED="1545065445733" POSITION="right" TEXT="OO Analysis and Design">
-<node CREATED="1545065587630" ID="ID_330339209" MODIFIED="1545065639560" TEXT="object keep code ORGANIZED"/>
-<node CREATED="1545065615901" ID="ID_699681842" MODIFIED="1545065656482" TEXT="objects keep code FLEXIBLE"/>
-<node CREATED="1545065670037" ID="ID_820516214" MODIFIED="1545065705573" TEXT="objects allow code to be REUSED">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1545147478677" ID="ID_1523753414" MODIFIED="1545198638948" POSITION="left" TEXT="Design in the Software Process">
+<node CREATED="1545147478677" ID="ID_1523753414" MODIFIED="1545230789907" POSITION="left" TEXT="OO analysis and design">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="rgb(36, 41, 46)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol" size="16px">It is important to allot time to form the requirements and design, even if they are not perfectly established.</font>
+      <font color="rgb(36, 41, 46)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol">It is important to allot time to form the requirements and design, even if they are not perfectly established.</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1545173922767" ID="ID_970065046" MODIFIED="1545198621292" TEXT="requirements">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -200,6 +194,11 @@
 </richcontent>
 </node>
 </node>
+</node>
+<node CREATED="1545065587630" ID="ID_330339209" MODIFIED="1545230817972" TEXT="object keep code">
+<node CREATED="1545230819278" ID="ID_157017654" MODIFIED="1545230822870" TEXT="organized"/>
+<node CREATED="1545230825874" ID="ID_1559183703" MODIFIED="1545230828286" TEXT="flexible"/>
+<node CREATED="1545230832857" ID="ID_1526178555" MODIFIED="1545230836453" TEXT="reusable"/>
 </node>
 </node>
 </node>
