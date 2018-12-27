@@ -1,11 +1,6 @@
-# Object-Oriented-Design
+# Software Design and Architecture Specialization
 
-Notes from [Object-Oriented Design](https://www.coursera.org/learn/object-oriented-design/home/welcome) course by University of Alberta.
+Notes from [Software Design and Architecture Specialization](https://www.coursera.org/specializations/software-design-architecture) by University of Alberta.
 
-* Module 1: **Object-Oriented Analysis and Design** [here](Module1/Module1.md)
-* Module 2: **Object-Oriented Modeling** [here](Module2/Module2.md)
-* Module 3: **Design Principles** [here](Module3/Module3.md)
-
-Here is the mind map of the course
-
-![mm](maps/Object-Oriented-Design.png)
+* Course 1: [Object-Oriented Design](Object-Oriented-Design/README.md)
+* Course 2: [Design Pattern](Design-Pattern/README.md)
