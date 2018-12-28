@@ -20,3 +20,12 @@ Categories of patterns
 
 ## Singleton Pattern
 
+A **singleton** is a *creational pattern*, which describes a way to create an object.
+
+The intent of a Singleton pattern is to provide global access to a class that is restricted to one instance. In general, this is achieved by having a private constructor, with a public method that instantiates the class "if" it is not already instantiated.
+
+An advantage of this version of a Singleton class is **lazy creation**. Lazy creation means that the object is not created until it is truly needed.
+
+There are trade-offs to the Singleton design principle. If there are multiple computing threads running, there could be issues caused by the threads trying to access the shared single object.
+
+## Factory Method Pattern
