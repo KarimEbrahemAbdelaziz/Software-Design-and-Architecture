@@ -57,3 +57,19 @@ There should also be a subclass of the abstract Creator class, a Concrete Creato
 There should be a factoryMethod in the concrete creator subclass. Every time a Concrete Creator subclass is added to the design, the factoryMethod() must be defined to make the right products. This is how the subclass "decides" to create objects.
 
 If object creation is separate from other behaviour, the code becomes cleaner to read, and easier to maintain or change. The client code is simplified. The code becomes more extensible, and inheritance allows for the specialization of object creation.
+
+### Facade Pattern
+
+The façade design pattern provide a single, simplified interface for client classes to interact with a subsystem. It is a *structural* design pattern.
+
+A façade is a wrapper class that encapsulates a subsystem in order to hide the subsystem’s complexity, and acts as a point of entry into a subsystem without adding more functionality in itself.
+
+![uml](imgs\Example_of_Facade_design_pattern_in_UML.png)
+
+In summary, the façade design pattern:
+
+* Is a means to hide the complexity of a subsystem by encapsulating it behind a unifying wrapper called a façade class.
+* Removes the need for client classes to manage a subsystem on their own, resulting in less coupling between the subsystem and the client classes.
+* Handles instantiation and redirection of tasks to the appropriate class within the subsystem.
+* Provides client classes with a simplified interface for the subsystem.
+* Acts simply as a point of entry to a subsystem and does not add more functional the subsystem
