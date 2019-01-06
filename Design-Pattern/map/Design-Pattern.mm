@@ -10,8 +10,7 @@
       A design pattern is a practical proven solution to a recurring design problem.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1546016886575" ID="ID_1352315864" MODIFIED="1546234589976" POSITION="right" TEXT="Creational Pattern">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -22,8 +21,7 @@
       deal with the creation or cloning new objects
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1546234524311" ID="ID_196467983" MODIFIED="1546234527140" TEXT="Singleton Pattern">
 <node CREATED="1546234653479" ID="ID_257583280" MODIFIED="1546234654841" TEXT="provide global access to a class that is restricted to one instance"/>
 <node CREATED="1546234667808" ID="ID_784493621" MODIFIED="1546234668913" TEXT="lazy creation"/>
@@ -47,8 +45,7 @@
       uses a separate &quot;method&quot; in the same class to create objects.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1546236298380" ID="ID_533317076" MODIFIED="1546236301885" TEXT="benefit">
 <node CREATED="1546236314314" ID="ID_991244808" MODIFIED="1546236337161" TEXT="code becomes cleaner to read, maintain or change"/>
 <node CREATED="1546236351341" ID="ID_1320841187" MODIFIED="1546236352607" TEXT="The client code is simplified"/>
@@ -73,8 +70,40 @@
       describe how objects are connected to each other
     </p>
   </body>
+</html></richcontent>
+<node CREATED="1546759489333" ID="ID_982068202" MODIFIED="1546759598227" TEXT="Facade Pattern">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      provide a single, simplified interface for client classes to interact with a subsystem
+    </p>
+  </body>
 </html>
 </richcontent>
+<node CREATED="1546759601207" ID="ID_318069114" MODIFIED="1546759602137" TEXT="hide the complexity of a subsystem"/>
+<node CREATED="1546759617091" ID="ID_1006956707" MODIFIED="1546759617987" TEXT="less coupling between the subsystem and the client classes"/>
+<node CREATED="1546759646032" ID="ID_1287083698" MODIFIED="1546759647118" TEXT=" simply as a point of entry to a subsystem and does not add more functional the subsystem"/>
+</node>
+<node CREATED="1546759532512" ID="ID_794065617" MODIFIED="1546759679540" TEXT="Adapter Pattern">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      facilitates communication between two existing systems by providing a compatible interface
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1546759704254" ID="ID_1129989109" MODIFIED="1546759705696" TEXT="Wrap the adaptee and exposes a target interface to the client"/>
+<node CREATED="1546759722472" ID="ID_1794068757" MODIFIED="1546759723358" TEXT="Indirectly change the adaptee&#x2019;s interface"/>
+<node CREATED="1546759735495" ID="ID_1454087660" MODIFIED="1546759736351" TEXT="ndirectly translate the client&#x2019;s request"/>
+<node CREATED="1546759746678" ID="ID_1518943608" MODIFIED="1546759746678" TEXT=""/>
+</node>
 </node>
 <node CREATED="1546016910451" ID="ID_1716732300" MODIFIED="1546234619204" POSITION="left" TEXT="Behavioural Pattern">
 <richcontent TYPE="NOTE"><html>
@@ -86,8 +115,7 @@
       focus on how objects distribute work, and describe how each object does a single cohesive function
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </map>

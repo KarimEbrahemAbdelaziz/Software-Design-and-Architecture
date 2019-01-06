@@ -73,3 +73,23 @@ In summary, the façade design pattern:
 * Handles instantiation and redirection of tasks to the appropriate class within the subsystem.
 * Provides client classes with a simplified interface for the subsystem.
 * Acts simply as a point of entry to a subsystem and does not add more functional the subsystem
+
+### Adapter Pattern
+
+Not all systems have compatible software interfaces. In other words, the output of one system may not conform to the expected input of another system. This frequently happens when a pre-existing system needs to incorporate third-party libraries or needs to connect to other systems. The **adapter design** pattern facilitates communication between two existing systems by providing a compatible interface. It is a *structural design pattern*.  
+
+The adapter design pattern consists of several parts
+
+* A *client class*. This class is the part of your system that wants to use a third-party library or external systems.
+* An *adaptee class*. This class is the third-party library or external system that is to be used.
+* An *adapter class*. This class sits between the client and the adaptee.
+* A *target interface*. This is used by the client to send a request to the adapter.
+
+![uml](imgs\Adapter.PNG)
+
+In summary, an adapter is meant to:
+
+* Wrap the adaptee and exposes a target interface to the client.
+* Indirectly change the adaptee’s interface into one that the client is expecting by implementing a target interface.
+* Indirectly translate the client’s request into one that the adaptee is expecting.
+* Reuse an existing adaptee with an incompatible interface.  
